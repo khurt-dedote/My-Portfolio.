@@ -1,0 +1,57 @@
+/* Custom Styles */
+.profile-image img {
+    border: 5px solid rgb(61, 5, 126);
+  }
+  
+  #home {
+    background-position: center;
+    background-attachment: fixed;
+  }
+  
+  #projects .card {
+    transition: transform 0.3s;
+  }
+  
+  #projects .card:hover {
+    transform: scale(1.05);
+  }
+  
+  footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+
+  .about{
+    background-color: aquamarine;
+
+
+  }
+
+
+  .card {
+    border: 2px solid #000000; /* Border style */
+    border-radius: 10px; /* Optional: adds rounded corners */
+    height: 100%; /* Ensures cards take up full height of the column */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card-body {
+    flex: 1; /* Allows the card body to expand and fill the space */
+  }
+  
+  .card-img-top {
+    height: 300px; /* Adjust height as needed */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+  }
+
+  /* Style for the horizontal line */
+.section-divider {
+  border: 0;
+  border-top: 2px solid #030303; /* Adjust the color and thickness of the line */
+  margin: 40px 0; /* Adjust spacing as needed */
+}
+
+
+  
